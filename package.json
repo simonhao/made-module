@@ -1,0 +1,22 @@
+{
+  "name": "made-module",
+  "version": "0.1.0",
+  "description": "made module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonhao/made-module.git"
+  },
+  "keywords": [
+    "module"
+  ],
+  "author": "simonhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonhao/made-module/issues"
+  },
+  "homepage": "https://github.com/simonhao/made-module#readme"
+}
