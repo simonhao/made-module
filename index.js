@@ -6,12 +6,12 @@
 
 'use strict';
 
-function MadeModule(module_id, instance){
-
+function MadeModule(){
 }
-
 
 MadeModule.prototype._made_module = true;
 
+MadeModule.prototype.destructor = function(){
+};
 
-module.exports = MadeModule;
+exports._default = MadeModule;
