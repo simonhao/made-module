@@ -1,6 +1,6 @@
 {
   "name": "made-module",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "made module",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/simonhao/made-module/issues"
   },
-  "homepage": "https://github.com/simonhao/made-module#readme"
+  "homepage": "https://github.com/simonhao/made-module#readme",
+  "dependencies": {
+    "events": "^1.1.0"
+  }
 }
