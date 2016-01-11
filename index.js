@@ -6,7 +6,7 @@
 
 'use strict';
 
-var EventEmitter = require('event').EventEmitter;
+var EventEmitter = require('events').EventEmitter;
 
 function MadeModule(){
   EventEmitter.call(this);
