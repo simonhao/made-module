@@ -6,8 +6,14 @@
 
 'use strict';
 
+var EventEmitter = require('event').EventEmitter;
+
 function MadeModule(){
+  EventEmitter.call(this);
 }
+
+MadeModule.prototype = new EventEmitter();
+MadeModule.prototype.constructor = MadeModule;
 
 MadeModule.prototype._made_module = true;
 
